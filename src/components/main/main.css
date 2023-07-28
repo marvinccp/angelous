@@ -1,0 +1,37 @@
+.main_container {
+    max-width: 1200px;
+    width: 90%;
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    height: 90vh;
+
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(150px, 20%) 1fr;
+}
+
+aside{
+    background-color: rgba(82, 82, 255, 0.833);
+
+}
+main{
+    background-color: rgb(183, 107, 255);
+}
+
+@media(min-width:768px){
+
+    .main_container {
+        max-width: 1200px;
+        width: 90%;
+        background-color: blanchedalmond;
+        margin: 0 auto;
+        min-height: 90vh;
+        height: auto;
+
+
+        display: grid;
+        grid-template-rows: 90vh;
+        grid-template-columns: minmax(150px, 20%) 1fr;
+    }
+}
