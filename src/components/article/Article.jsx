@@ -1,16 +1,19 @@
 // import React from 'react'
-
+import './article.css'
 export const Article = ({nContent}) => {
 
 
-const contentArticle = nContent ? nContent.map( ({id, text, image, category, title}) =>(
-  <article key={id}>
+const contentArticle = nContent ? nContent.map( ({id, text,image, category, title}) =>(
+  <article className="article_container" key={id}>
     <section>
-      <h1>{id}{title}</h1>
-      <img src={image} alt="" />
+      <h1>{title}</h1>
+      <h5>Categoría: {category}</h5>
+      <div className='image-container'>
+      <img className='image' src={image} alt="article-image" />
+      </div>
     </section>
-    <section>
-      <h5>{category}</h5>
+    <section className='
+    article text'>
       <p>{text}</p>
     </section>
   </article>

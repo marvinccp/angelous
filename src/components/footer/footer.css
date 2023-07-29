@@ -1,7 +1,11 @@
 .footer_container {
     max-width: 1200px;
     width: 90%;
-    background-color: rgb(59, 223, 51);
+    background-color: rgb(242, 242, 242);
     margin: 0 auto;
     height: 3vh;
+
+    display: flex;
+justify-content: center;
+align-items: center;
 }

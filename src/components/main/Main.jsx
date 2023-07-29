@@ -19,23 +19,24 @@ export const Main = () => {
   const nContent = data.slice(indexFirst, indexLast);
   const nPages = Math.ceil(data.length / dataQuantity);
 
-  const dataAside = content.map(({ title, image, id }) => (
+  const dataAside = content.map(({ title, id }) => (
     <div key={id}>
       <h1>{title}</h1>
-      <img src={image} alt="" />
     </div>
   ));
-  
+
   return (
     <section className="main_container">
-      <aside className="aside">
-        <h1>yeahh</h1>
-        <section>{dataAside}</section>
+      <aside >
+        <h1>aside</h1>
+        {dataAside}
+
       </aside>
-      <main className="main">
-        <h2>Ohhh</h2>
-        <Article nContent={nContent} />
-        <div>
+      <main >
+        <div className="article">
+          <Article nContent={nContent} />
+        </div>
+        <div className="pagination">
           <Pagination
             nPages={nPages}
             currentPage={currentPage}

@@ -1,0 +1,16 @@
+.article_container h1 {
+    font-size: 2rem;
+}
+
+.article_container p {
+    font-size: 1.3rem;
+}
+
+.image-container {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.image-container .image {
+    width: 100%;
+}
