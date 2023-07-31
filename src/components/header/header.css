@@ -1,5 +1,5 @@
 .header_container {
-    height: 7vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,6 +7,8 @@
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+
+    /* background-color: aquamarine; */
 }
 
 .nav_container{
@@ -17,7 +19,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    /* background-color: antiquewhite; */
 }
-.nav_container img{
-    height: 100%
+.nav_container_image{
+    width: 30%;
 } 

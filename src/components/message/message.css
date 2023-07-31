@@ -1,0 +1,22 @@
+.message {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 10vh;
+    gap: 10px;
+
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+        font-size: 1.5rem;
+
+}
+
+.eres{
+    font-weight: 500;
+}
+.imparable{
+    color:fuchsia ;
+}
