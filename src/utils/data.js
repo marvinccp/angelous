@@ -4,8 +4,8 @@ export const data = () => {
       id: "1",
       title: "Conquistando el Mundo",
       text: "Queridas mujeres jóvenes, En un mundo que está en constante cambio y evolución, las mujeres jóvenes como tú tienen un papel fundamental en la sociedad actual.Tu fuerza, tu pasión y tu capacidad para inspirar a otros son cualidades excepcionales que pueden marcar la diferencia en cualquier ámbito de la vida. Es por eso que hoy quiero compartir contigo algunos consejos que te ayudarán a abrazar tu poder interior, enfrentar los desafíos y alcanzar tus metas con confianza. Descubre tu verdadero yo: Antes de embarcarte en cualquier camino, es vital que te tomes el tiempo para conocerte a ti misma en un nivel más profundo. Descubre tus pasiones, intereses y valores\nAcepta tus fortalezas y debilidades, ya que esto te permitirá tomar decisiones más alineadas con tu auténtico ser. Conocerte a ti misma te brindará una confianza inquebrantable para enfrentar cualquier desafío que se presente en tu camino. La educación como tu mejor aliada: Nunca subestimes el poder de la educación. Ya sea a través de la educación formal o el aprendizaje autodidacta, busca oportunidades para expandir tus conocimientos. \n La educación te proporciona las herramientas necesarias para tomar decisiones informadas, ampliar tus horizontes y te empodera para luchar por tus derechos y metas. Supera tus miedos: Enfrentar el miedo puede ser aterrador, pero recuerda que cada desafío es una oportunidad de crecimiento. No permitas que el miedo te detenga en tu camino hacia el éxito. Abraza la incertidumbre y aprende a tomar riesgos calculados. Recuerda que incluso los fracasos pueden convertirse en lecciones valiosas que te impulsarán hacia adelante. Querida mujer joven, el mundo te espera con los brazos abiertos. Eres capaz de lograr grandes cosas y causar un impacto positivo en tu vida y en la vida de otros. Confía en ti misma, nunca dejes de aprender y recuerda que tu voz es valiosa. Enfrenta cada día con determinación y gratitud, y verás cómo el poder dentro de ti florece, llevándote a alcanzar tus sueños y metas más ambiciosas. ¡El futuro es tuyo para conquistar!  ",
-      image: "src/assets/images/a1c.png",
-      image_c: "src/assets/images/a1c.png",
+      image: "../assets/images/a1.png",
+      image_c: "../assets/images/a1c.png",
       category: "empoderamiento",
     },
     {
@@ -62,7 +62,7 @@ export const data = () => {
       id: "7",
       title: "Articulo 3",
       text: "lorem cadvsdgsfgsfgsdgsdgsadgsdgsdgasdg",
-      image: "src/assets/images/angel.png",
+      image: "../assets/images/a1.png",
       category: "love",
     },
     {
