@@ -50,11 +50,11 @@
     position: absolute;
     z-index: 1;
     color: aliceblue;
-    width: 72%;
+    width: 38%;
     height: 50px;
     line-height: 1.3rem;
     font-size: 1.3rem;
-    padding: 280px 20px 0 15px;
+    padding: 280px 0 0 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
